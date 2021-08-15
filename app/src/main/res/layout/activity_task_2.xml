@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information about me:"
+        android:textSize="20sp"
+        android:textColor="@color/purple_500"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Person_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="textPersonName"/>
+
+    <EditText
+        android:id="@+id/Phone_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"/>
+
+    <EditText
+        android:id="@+id/Text_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="textPassword"/>
+
+    <EditText
+        android:id="@+id/Text_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="textEmailAddress "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Birthday:"/>
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/Send_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SendInfo"/>
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Accepted"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
